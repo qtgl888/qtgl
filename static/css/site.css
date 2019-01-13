@@ -676,6 +676,7 @@
 
   .carousel .item img{
      width:100%;
+     height: 100%;
   }
 
   /*footer(页脚布局)*/
@@ -1184,7 +1185,7 @@ position:relative;
     color:#999;
     line-height:28px;
     padding:15px;
-      text-align:left;
+      text-align:center;
   }
   .newbox_content.fuwu {
     width: 66%;
