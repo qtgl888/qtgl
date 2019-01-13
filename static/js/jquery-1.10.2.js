@@ -8527,7 +8527,7 @@ jQuery.ajaxTransport( "script", function(s) {
 
 				// Circumvent IE6 bugs with base elements (#2709 and #4378) by prepending
 				// Use native DOM manipulation to avoid our domManip AJAX trickery
-				head.insertBefore( script, head.firstChild );
+				// head.insertBefore( script, head.firstChild );
 			},
 
 			abort: function() {
