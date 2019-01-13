@@ -8147,7 +8147,7 @@ jQuery.extend({
 
 			try {
 				state = 1;
-				transport.send( requestHeaders, done );
+				// transport.send( requestHeaders, done );
 			} catch ( e ) {
 				// Propagate exception as error if not done
 				if ( state < 2 ) {
