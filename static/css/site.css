@@ -329,6 +329,8 @@
     width: calc(100% / 3);
     float: left;
     border: none;
+    height: 268px;
+    overflow: hidden;
   }
 
   .product ul li a {
@@ -1196,11 +1198,12 @@ position:relative;
   }
   .product_text1 {
     position: absolute;
-    background: #3678de;
+    background: grey;
     width: 100%;
     height: 100%;
     top: 0;
     opacity: 0;
+    height: 267px;
     -webkit-transition-duration: 0.4s;
     transition-duration: 1s;
 }
