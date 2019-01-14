@@ -1,6 +1,6 @@
 ﻿
   $(document).ready(function(){
-    jQuery.getScript("http://q.v3.hnrich.net/RuiQiCMS.Resource/Content/swiper/swiper.min.js")
+    jQuery.getScript("./swiper.min.js")
       .done(function () {
       $(".swiper-fluid").addClass("swiper-slide");
       $(".swiper-fluid").wrapAll("<div class='swiper-wrapper'></div>");
